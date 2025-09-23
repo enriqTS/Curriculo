@@ -142,12 +142,10 @@
 % \end{tabularx}
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\Huge{Henrique Teixeira Silva} \\[7.5pt]
+\href{https://www.linkedin.com/in/henrique-teixeira-silva-058446240/}{\raisebox{-0.05\height}\faLinkedin\ Henrique Teixeira Silva} \ $|$ \ 
+\href{mailto:henriqueteixeirasilva16@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ henriqueteixeirasilva16@gmail.com} \ $|$ \ 
+\href{tel:+32984214353}{\raisebox{-0.05\height}\faMobile \ +32984214353} \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
@@ -155,48 +153,64 @@
 %----------------------------------------------------------------------------------------
 
 %Interests/ Keywords/ Summary
-\section{Summary}
-This CV can also be automatically complied and published using GitHub Actions. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
+\section{Sumário}
+Desenvolvedor Cloud júnior com formação em Engenharia de Computação e experiência em soluções AWS. Possui 6 certificações profissionais em cloud computing (5 AWS e 1 GCP), incluindo DevOps Engineer Professional. Experiência comprovada em liderança de projetos, desenvolvimento de chatbots com RAG, migração de sistemas e arquitetura de backend. Background em pesquisa científica com publicação internacional em machine learning aplicado a previsão de consumo energético.
 
 %Experience
-\section{Work Experience}
+\section{Experiência}
 
-\begin{jobshort}{Designation}{Jan 2021 - present}
-long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width
+\begin{jobshort}{Pesquisador - UNIFEI}{Set 2023 - Set 2024}
+Atuação como pesquisador líder em projeto de iniciação científica voltado à análise preditiva de consumo energético em sistemas fotovoltaicos. Desenvolvimento de modelos SARIMA e Prophet para previsão de consumo com dados históricos limitados, resultando na publicação do artigo "Effectiveness of Time Series Models in Consumption Forecasting for Photovoltaic Energy with Limited Historical Data" no 11th World Congress on Electrical Engineering and Computer Systems and Sciences (EECSS'25).
 \end{jobshort}
 
+\begin{joblong}{Estagiário em Cloud Development - :upd8}{Abr 2024 - Jul 2025}
+\item Conclusão de programa intensivo de capacitação em cloud computing com obtenção de 6 certificações profissionais (5 AWS e 1 GCP)
+\item Certificações AWS: AI Practitioner, Cloud Practitioner, Machine Learning Engineer Associate, SysOps Administrator Associate e DevOps Engineer Professional
+\item Certificação GCP: Associate Cloud Engineer
+\item Desenvolvimento de soluções de backend para clientes AWS como membro do time técnico após período de capacitação
+\end{joblong}
 
-\begin{joblong}{Designation}{Mar 2019 - Jan 2021}
-\item long long line of blah blah that will wrap when the table fills the column width
-\item again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
+\begin{joblong}{Junior Cloud Developer - :upd8}{Jul 2025 - Presente}
+\item Liderança de projetos trabalhando diretamente com clientes para entregar soluções AWS personalizadas
+\item Desenvolvimento e implementação de chatbots com RAG (Retrieval-Augmented Generation) para usuários finais e uso interno corporativo
+\item Condução de projetos de migração de bancos de dados e arquiteturas de back-end para infraestrutura AWS
+\item Consultoria técnica para identificar e implementar novas oportunidades tecnológicas para empresas clientes
 \end{joblong}
   
 %Projects
-\section{Projects}
+\section{Projetos}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+\textbf{Previsão de Consumo em Energia Fotovoltaica} & \hfill \href{https://github.com/enriqTS/IC-Gasto-Fotovoltaico}{Link para o Repositório} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Projeto de iniciação científica focado no desenvolvimento de modelos preditivos para consumo energético em sistemas fotovoltaicos com dados históricos limitados. Implementação e comparação de modelos SARIMA e Prophet em Python, utilizando bibliotecas como Pandas, StatsModels e Prophet. O projeto incluiu análise de sazonalidade, testes de estacionariedade (ADF), otimização de parâmetros e técnicas de data augmentation. Resultou em publicação internacional apresentando diretrizes para seleção de modelos baseadas em características específicas dos dados de consumo.}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Chatbot RAG com Query SQL em Linguagem Natural} & \hfill Projeto Interno \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Liderança técnica no desenvolvimento de chatbot corporativo integrando banco de dados on-premises com AWS Redshift através de RAG estruturado. Implementação de pipeline completo utilizando Lambda Functions, Bedrock Agents, DMS e EventBridge Scheduler para sincronização automatizada. Sistema converte linguagem natural em queries SQL, permitindo que funcionários consultem dados de vendas e clientes sem conhecimento técnico. Arquitetura inclui CI/CD via CodePipeline com validação manual e deployment automatizado usando CloudFormation templates.}  \\
+\end{tabularx}
+
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{Sistema de Integração e Comunicação para App de Frete} & \hfill Projeto Interno \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{Desenvolvimento de sistema serverless para integração entre aplicativo de frete e plataforma de comunicação. Responsável pela criação de APIs para recebimento, validação e pré-processamento de dados com armazenamento em DynamoDB. Implementação de integração com WhatsApp utilizando Meta API e AWS End User Messaging para envio de mensagens automatizado. Sistema incluiu análise de sentimento com IA e integração com Amazon Connect para transbordo inteligente ao suporte. Arquitetura event-driven utilizando EventBridge para agendamento de mensagens e Amazon Bedrock para análise contextual das conversas.}  \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
-\section{Education}
+\section{Ensino}
 \begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
 
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
+2021 - 2025 & Bacharelado em Engenharia de Computação na \textbf{UNIFEI} \hfill (IRA: 8.2/10.0) \\ 
 
-2022 & Class 12th Some Board \hfill  (Grades) \\
+2018 - 2020 & Ensino Médio no Colégio Santa Marcelina \hfill \\
 
-2021 & Class 10th Some Board \hfill  (Grades) \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS
 %----------------------------------------------------------------------------------------
-\section{Publications}
+\section{Publicações}
 \begin{refsection}[citations.bib]
 \nocite{*}
 \printbibliography[heading=none]
@@ -205,13 +219,18 @@ long long line of blah blah that will wrap when the table fills the column width
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
-\section{Skills}
+\section{Habilidades}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+Linguagens -- \normalsize{Python (principal), SQL} \\ \\
+Cloud Computing -- \normalsize{AWS (Lambda, S3, DynamoDB, API Gateway, Bedrock), Google Cloud Platform} \\ \\
+Machine Learning -- IA \normalsize{Séries temporais (SARIMA, Prophet), RAG, AWS Bedrock, chatbots}\\ \\
+Análise de Dados -- \normalsize{Pandas, NumPy, StatsModels, forecasting, data augmentation}\\ \\
+DevOps e Infraestrutura -- \normalsize{CI/CD, migração de sistemas, arquitetura de backend}\\ \\
+Banco de Dados -- \normalsize{Migração, NoSQL (DynamoDB)}\\ \\
+Línguas -- \normalsize{Inglês fluente, Espanhol intermediário e Francês iniciante}
 \end{tabularx}
 
 \vfill
-\center{\footnotesize Last updated: \today}
+\center{\footnotesize Última atualização: \today}
 
 \end{document}
